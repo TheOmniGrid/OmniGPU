@@ -24,13 +24,17 @@
   <a href="https://www.patreon.com/TheOmniGrid"><img src="media/buttons/support-on-patreon.svg" alt="Support OmniGPU on Patreon" height="48"></a>
 </p>
 
+<!-- Quick navigation. The accent chip introduces the product; the remaining
+     chips jump to the most useful public sections and documents. -->
 <p align="center">
-  <a href="#what-omnigpu-brings-together">Features</a> ·
-  <a href="#real-application-captures">Screenshots</a> ·
-  <a href="COMPATIBILITY.md">Compatibility</a> ·
-  <a href="FAQ.md">FAQ</a> ·
-  <a href="STATUS.md">Release status</a> ·
-  <a href="LINKS.md">Official links</a>
+  <a href="#one-control-center-built-around-games"><img alt="Explore OmniGPU" src="https://img.shields.io/badge/Explore%20OmniGPU-8B5CF6?style=for-the-badge"></a>
+  <a href="FEATURES.md"><img alt="Features" src="https://img.shields.io/badge/Features-251E3F?style=for-the-badge"></a>
+  <a href="#real-application-captures"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-251E3F?style=for-the-badge"></a>
+  <a href="COMPATIBILITY.md"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-251E3F?style=for-the-badge"></a>
+  <a href="#safety-is-part-of-the-feature-set"><img alt="Safety" src="https://img.shields.io/badge/Safety-251E3F?style=for-the-badge"></a>
+  <a href="STATUS.md"><img alt="Release status" src="https://img.shields.io/badge/Status-251E3F?style=for-the-badge"></a>
+  <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-251E3F?style=for-the-badge"></a>
+  <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-251E3F?style=for-the-badge"></a>
 </p>
 
 ---
