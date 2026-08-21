@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="https://www.patreon.com/TheOmniGrid"><img src="media/buttons/support-on-patreon.svg" alt="Support OmniGPU on Patreon" height="64"></a>
-  &nbsp;&nbsp;
-  <a href="https://ko-fi.com/theomnigrid"><img src="media/buttons/support-on-kofi.svg" alt="Support OmniGPU on Ko-fi" height="64"></a>
+  <a href="https://www.patreon.com/TheOmniGrid"><img alt="Get it on Patreon" src="https://img.shields.io/badge/Get%20it%20on-Patreon-FF424D?style=for-the-badge&logo=patreon&logoColor=white"></a>
+  &nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img alt="Get it on Ko-fi" src="https://img.shields.io/badge/Get%20it%20on-Ko--fi-FF5E5B?style=for-the-badge&logo=kofi&logoColor=white"></a>
 </p>
 
 <p align="center">
@@ -99,9 +99,11 @@ GPU tuning and driver removal can still cause instability, display loss, restart
 
 OmniGPU is donationware: free to use, with no required payment, no advertisements and no paid feature tier. If it saves you time, an optional Ko-fi or Patreon contribution helps fund hardware validation, compatibility work and continued development.
 
-| Ko-fi | Patreon |
-|---|---|
-| [Support on Ko-fi](https://ko-fi.com/theomnigrid) | [Support on Patreon](https://www.patreon.com/TheOmniGrid) |
+<p align="center">
+  <a href="https://www.patreon.com/TheOmniGrid"><img src="media/buttons/support-on-patreon.svg" height="64" alt="Support OmniGPU on Patreon"></a>
+  &nbsp;&nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img src="media/buttons/support-on-kofi.svg" height="64" alt="Support OmniGPU on Ko-fi"></a>
+</p>
 
 Donating does not grant source-code, redistribution, resale or trademark rights. Please send other users to the official project page instead of sharing an installer or creating a mirror. Read the [donationware policy](DONATIONWARE.md) and [public materials notice](LICENSE.md).
 
