@@ -1,14 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="286" height="64" viewBox="0 0 286 64" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="116" viewBox="0 0 520 116" role="img" aria-labelledby="title">
   <title id="title">Support OmniGPU on Ko-fi</title>
-  <desc id="desc">Dark OmniVex donation button with cyan and violet accents.</desc>
-  <defs>
-    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#24c8ff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c1b2b"/><stop offset="1" stop-color="#171126"/></linearGradient>
-  </defs>
-  <rect x="1" y="1" width="284" height="62" rx="13" fill="url(#glow)" stroke="url(#border)" stroke-width="2"/>
-  <circle cx="34" cy="32" r="18" fill="#24c8ff" fill-opacity=".14" stroke="#24c8ff"/>
-  <path d="M25 25h16v11a8 8 0 0 1-16 0V25Zm16 3h3a4 4 0 0 1 0 8h-3" fill="none" stroke="#eaf8ff" stroke-width="2.5" stroke-linecap="round"/>
-  <path d="M29 31c2-4 7-4 9 0-2 4-7 4-9 0Z" fill="#8b5cf6"/>
-  <text x="64" y="27" fill="#9ba9c6" font-family="Segoe UI,Arial,sans-serif" font-size="12" font-weight="600" letter-spacing="1.4">OPTIONAL DONATION</text>
-  <text x="64" y="47" fill="#f5f7ff" font-family="Segoe UI,Arial,sans-serif" font-size="19" font-weight="700">Support on Ko-fi</text>
+  <rect x="2" y="2" width="516" height="112" rx="14" fill="#0b1419" stroke="#54d6ff" stroke-width="3"/>
+  <rect x="25" y="28" width="66" height="55" rx="11" fill="#ffffff"/>
+  <path d="M91 39h8c14 0 14 31 0 31h-8" fill="none" stroke="#ffffff" stroke-width="10"/>
+  <path d="M58 70C38 57 42 43 51 43c5 0 7 3 8 6 2-4 5-6 9-6 10 0 13 14-10 27Z" fill="#ff5e5b"/>
+  <text x="116" y="49" fill="#aeb7c4" font-family="Consolas, monospace" font-size="16" letter-spacing="3">OPTIONAL SUPPORT</text>
+  <text x="116" y="82" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">Support on Ko-fi</text>
 </svg>

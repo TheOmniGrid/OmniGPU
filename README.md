@@ -19,9 +19,9 @@
 </p>
 
 <p align="center">
-  <a href="https://ko-fi.com/theomnigrid"><img src="media/buttons/support-on-kofi.svg" alt="Support OmniGPU on Ko-fi" height="48"></a>
-  &nbsp;
-  <a href="https://www.patreon.com/TheOmniGrid"><img src="media/buttons/support-on-patreon.svg" alt="Support OmniGPU on Patreon" height="48"></a>
+  <a href="https://www.patreon.com/TheOmniGrid"><img src="media/buttons/support-on-patreon.svg" alt="Support OmniGPU on Patreon" height="64"></a>
+  &nbsp;&nbsp;
+  <a href="https://ko-fi.com/theomnigrid"><img src="media/buttons/support-on-kofi.svg" alt="Support OmniGPU on Ko-fi" height="64"></a>
 </p>
 
 <!-- Quick navigation. The accent chip introduces the product; the remaining
