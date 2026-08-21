@@ -27,17 +27,19 @@
   <img alt="Free donationware" src="https://img.shields.io/badge/donationware-free%20%C2%B7%20no%20ads-251e3f?style=flat-square">
 </p>
 
-<!-- Quick navigation. The accent chip introduces the product; the remaining
-     chips jump to the most useful public sections and documents. -->
+<!-- Quick navigation. The accent chip is the primary acquisition entry; the
+     remaining chips follow the shared OmniVex content order where applicable. -->
 <p align="center">
-  <a href="#one-control-center-built-around-games"><img alt="Explore OmniGPU" src="https://img.shields.io/badge/Explore%20OmniGPU-8B5CF6?style=for-the-badge"></a>
+  <a href="#get-omnigpu"><img alt="Get OmniGPU" src="https://img.shields.io/badge/Get%20OmniGPU-8B5CF6?style=for-the-badge"></a>
   <a href="FEATURES.md"><img alt="Features" src="https://img.shields.io/badge/Features-251E3F?style=for-the-badge"></a>
   <a href="#real-application-captures"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-251E3F?style=for-the-badge"></a>
-  <a href="COMPATIBILITY.md"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-251E3F?style=for-the-badge"></a>
   <a href="#safety-is-part-of-the-feature-set"><img alt="Safety" src="https://img.shields.io/badge/Safety-251E3F?style=for-the-badge"></a>
-  <a href="STATUS.md"><img alt="Release status" src="https://img.shields.io/badge/Status-251E3F?style=for-the-badge"></a>
+  <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-251E3F?style=for-the-badge"></a>
+  <a href="COMPATIBILITY.md#operating-system"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-251E3F?style=for-the-badge"></a>
+  <a href="COMPATIBILITY.md#graphics-hardware"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-251E3F?style=for-the-badge"></a>
   <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-251E3F?style=for-the-badge"></a>
   <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-251E3F?style=for-the-badge"></a>
+  <a href="STATUS.md"><img alt="Status" src="https://img.shields.io/badge/Status-251E3F?style=for-the-badge"></a>
 </p>
 
 ---
@@ -95,7 +97,7 @@ These are real 1.0.0 application captures. Hardware-specific values and controls
 
 GPU tuning and driver removal can still cause instability, display loss, restart requirements or data loss. Keep important work backed up and use conservative settings.
 
-## Donationware, without a paywall
+## Get OmniGPU
 
 OmniGPU is donationware: free to use, with no required payment, no advertisements and no paid feature tier. If it saves you time, an optional Ko-fi or Patreon contribution helps fund hardware validation, compatibility work and continued development.
 
@@ -116,7 +118,7 @@ Donating does not grant source-code, redistribution, resale or trademark rights.
 - Live read-only validation: NVIDIA GeForce RTX 5090 plus current NVML/NVAPI and installed PresentMon paths
 - Release boundary: production Authenticode signing and the documented real-hardware write/read-back matrices remain required before the build is represented as a universally certified release candidate
 
-See [Release status](STATUS.md), [Compatibility](COMPATIBILITY.md) and the [public roadmap](ROADMAP.md) for the honest boundary between implemented software and external certification.
+See [Status](STATUS.md), [Compatibility](COMPATIBILITY.md) and the [public roadmap](ROADMAP.md) for the honest boundary between implemented software and external certification.
 
 ## Documentation
 
