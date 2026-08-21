@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/banners/banner-animated.gif" alt="OmniGPU — one GPU control center built for gaming" width="100%">
+  <img src="assets/banners/banner-animated.gif" alt="OmniGPU — one GPU control center built for gaming" width="100%">
 </p>
 
 <h1 align="center">OmniGPU</h1>
@@ -38,9 +38,13 @@
   <a href="COMPATIBILITY.md#operating-system"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-251E3F?style=for-the-badge"></a>
   <a href="COMPATIBILITY.md#graphics-hardware"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-251E3F?style=for-the-badge"></a>
   <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-251E3F?style=for-the-badge"></a>
+  <a href="SUPPORT.md"><img alt="Support" src="https://img.shields.io/badge/Support-251E3F?style=for-the-badge"></a>
   <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-251E3F?style=for-the-badge"></a>
   <a href="STATUS.md"><img alt="Status" src="https://img.shields.io/badge/Status-251E3F?style=for-the-badge"></a>
 </p>
+
+> [!IMPORTANT]
+> **Documentation-only repository.** This public repository contains OmniGPU documentation, approved artwork, and screenshots—not the application source tree, installer, binary releases, signing material, or private build infrastructure. Official distribution remains outside GitHub.
 
 ---
 
@@ -70,20 +74,20 @@ The [complete feature list](FEATURES.md) documents the full surface and its capa
 ## Real application captures
 
 <p align="center">
-  <img src="media/banners/omnigpu-feature-collage-1600x900.jpg" alt="OmniGPU dashboard, Profile Inspector and monitoring views" width="100%">
+  <img src="assets/banners/omnigpu-feature-collage-1600x900.jpg" alt="OmniGPU dashboard, Profile Inspector and monitoring views" width="100%">
 </p>
 
 | Gaming dashboard | Profile Inspector |
 |---|---|
-| ![OmniGPU gaming dashboard](media/screenshots/omnigpu-1.0.0-home.jpg) | ![OmniGPU Profile Inspector](media/screenshots/omnigpu-1.0.0-profile-inspector.jpg) |
+| ![OmniGPU gaming dashboard](assets/screenshots/omnigpu-1.0.0-home.jpg) | ![OmniGPU Profile Inspector](assets/screenshots/omnigpu-1.0.0-profile-inspector.jpg) |
 
 | Performance tuning | Live monitoring |
 |---|---|
-| ![OmniGPU performance tuning](media/screenshots/omnigpu-1.0.0-performance-tuning.jpg) | ![OmniGPU live monitoring](media/screenshots/omnigpu-1.0.0-monitoring.jpg) |
+| ![OmniGPU performance tuning](assets/screenshots/omnigpu-1.0.0-performance-tuning.jpg) | ![OmniGPU live monitoring](assets/screenshots/omnigpu-1.0.0-monitoring.jpg) |
 
 | Safe driver reset | Displays and HDR |
 |---|---|
-| ![OmniGPU safe driver reset](media/screenshots/omnigpu-1.0.0-driver-reset.jpg) | ![OmniGPU displays and HDR controls](media/screenshots/omnigpu-1.0.0-displays-hdr.jpg) |
+| ![OmniGPU safe driver reset](assets/screenshots/omnigpu-1.0.0-driver-reset.jpg) | ![OmniGPU displays and HDR controls](assets/screenshots/omnigpu-1.0.0-displays-hdr.jpg) |
 
 These are real 1.0.0 application captures. Hardware-specific values and controls vary by GPU, driver, firmware, display and OEM policy.
 
@@ -102,23 +106,12 @@ GPU tuning and driver removal can still cause instability, display loss, restart
 OmniGPU is donationware: free to use, with no required payment, no advertisements and no paid feature tier. If it saves you time, an optional Ko-fi or Patreon contribution helps fund hardware validation, compatibility work and continued development.
 
 <p align="center">
-  <a href="https://www.patreon.com/TheOmniGrid"><img src="media/buttons/support-on-patreon.svg" height="64" alt="Support OmniGPU on Patreon"></a>
+  <a href="https://www.patreon.com/TheOmniGrid"><img src="assets/buttons/support-on-patreon.svg" height="64" alt="Support OmniGPU on Patreon"></a>
   &nbsp;&nbsp;
-  <a href="https://ko-fi.com/theomnigrid"><img src="media/buttons/support-on-kofi.svg" height="64" alt="Support OmniGPU on Ko-fi"></a>
+  <a href="https://ko-fi.com/theomnigrid"><img src="assets/buttons/support-on-kofi.svg" height="64" alt="Support OmniGPU on Ko-fi"></a>
 </p>
 
 Donating does not grant source-code, redistribution, resale or trademark rights. Please send other users to the official project page instead of sharing an installer or creating a mirror. Read the [donationware policy](DONATIONWARE.md) and [public materials notice](LICENSE.md).
-
-## Current verified state
-
-- Product version: **1.0.0**—intentionally pinned
-- Platform: Windows 10/11 x64; self-contained runtime
-- Automated contracts: **360/360 passing** in Debug and Release with zero managed build warnings
-- Localization: **1,836 synchronized non-empty strings** in English, Deutsch, Español, Français and Română
-- Live read-only validation: NVIDIA GeForce RTX 5090 plus current NVML/NVAPI and installed PresentMon paths
-- Release boundary: production Authenticode signing and the documented real-hardware write/read-back matrices remain required before the build is represented as a universally certified release candidate
-
-See [Status](STATUS.md), [Compatibility](COMPATIBILITY.md) and the [public roadmap](ROADMAP.md) for the honest boundary between implemented software and external certification.
 
 ## Documentation
 
@@ -130,8 +123,21 @@ See [Status](STATUS.md), [Compatibility](COMPATIBILITY.md) and the [public roadm
 | [Security](SECURITY.md) | Privilege boundary and private vulnerability reporting |
 | [Privacy](PRIVACY.md) | Local data, network use and diagnostics policy |
 | [Support](SUPPORT.md) | What to include in a useful report |
+| [Contributing](CONTRIBUTING.md) | Documentation contribution scope and workflow |
 | [Changelog](CHANGELOG.md) | Maintained 1.0.0 development history |
+| [Status](STATUS.md) | Current certification and delivery boundary |
 | [Credits](CREDITS.md) | Independent implementations, research references and attribution |
+
+## Current verified state
+
+- Product version: **1.0.0**—intentionally pinned
+- Platform: Windows 10/11 x64; self-contained runtime
+- Automated contracts: **360/360 passing** in Debug and Release with zero managed build warnings
+- Localization: **1,836 synchronized non-empty strings** in English, Deutsch, Español, Français and Română
+- Live read-only validation: NVIDIA GeForce RTX 5090 plus current NVML/NVAPI and installed PresentMon paths
+- Release boundary: production Authenticode signing and the documented real-hardware write/read-back matrices remain required before the build is represented as a universally certified release candidate
+
+See [Status](STATUS.md), [Compatibility](COMPATIBILITY.md) and the [public roadmap](ROADMAP.md) for the honest boundary between implemented software and external certification.
 
 ## The OmniVex suite
 
