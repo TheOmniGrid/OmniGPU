@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Part of the <a href="https://github.com/TheOmniGrid">OmniVex</a> suite.
+  Part of the <a href="#the-omnivex-suite">OmniVex</a> suite.
 </p>
 
 <p align="center">
@@ -132,6 +132,15 @@ See [Release status](STATUS.md), [Compatibility](COMPATIBILITY.md) and the [publ
 ## Independent software
 
 OmniGPU is independent software by OmniVex. NVIDIA, AMD, Intel, Microsoft, MSI and the referenced community projects do not sponsor or endorse it. Their names identify compatible hardware, software or researched workflows only.
+
+## The OmniVex suite
+
+OmniGPU is one of a family of tools sharing a design language and a philosophy —
+modern, fast, no telemetry:
+
+**OmniTheme** · **OmniBlock** · **OmniCleaner** · **OmniAPO** · **OmniEQ** · **OmniPlay** · **OmniScale** · **OmniShade** · **OmniVisuals** · **OmniGPU** · **OmniWrappers**
+
+<sub>**OmniWrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
 
 <p align="center">
   <strong>Tuned for framerate, mixed for headroom, sharp to the pixel.</strong><br>
