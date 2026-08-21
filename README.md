@@ -1,27 +1,30 @@
 <p align="center">
-  <img src="media/banners/github-social-preview-1280x640.jpg" alt="OmniGPU — one focused GPU control center for gaming" width="100%">
+  <img src="media/banners/omnigpu-header-1600x500.png" alt="OmniGPU — one GPU control center built for gaming" width="100%">
 </p>
 
 <h1 align="center">OmniGPU</h1>
 
 <p align="center">
-  <strong>Every gaming GPU tool. One focused interface.</strong><br>
-  Driver care, profiles, capability-gated tuning, monitoring and display control for NVIDIA, AMD and Intel.
+  <strong>One gaming GPU control center for NVIDIA, AMD and Intel — driver care, profiles, capability-gated tuning, monitoring and displays.</strong>
 </p>
 
 <p align="center">
-  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-8b5cf6?style=flat-square">
-  <img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/Windows-10%20%7C%2011%20x64-24c8ff?style=flat-square">
-  <img alt="NVIDIA, AMD and Intel" src="https://img.shields.io/badge/GPU-NVIDIA%20%7C%20AMD%20%7C%20Intel-a99cff?style=flat-square">
-  <img alt="Five interface languages" src="https://img.shields.io/badge/languages-5-39e59f?style=flat-square">
-  <img alt="Donationware with no required payment" src="https://img.shields.io/badge/donationware-free-39e59f?style=flat-square">
-  <img alt="No ads" src="https://img.shields.io/badge/ads-none-101827?style=flat-square">
+  Part of the <a href="https://github.com/TheOmniGrid">OmniVex</a> suite.
 </p>
 
 <p align="center">
   <a href="https://www.patreon.com/TheOmniGrid"><img src="media/buttons/support-on-patreon.svg" alt="Support OmniGPU on Patreon" height="64"></a>
   &nbsp;&nbsp;
   <a href="https://ko-fi.com/theomnigrid"><img src="media/buttons/support-on-kofi.svg" alt="Support OmniGPU on Ko-fi" height="64"></a>
+</p>
+
+<p align="center">
+  <img alt="Version 1.0.0" src="https://img.shields.io/badge/version-1.0.0-8b5cf6?style=flat-square">
+  <img alt="Windows 10 and 11 x64" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20x64-24c8ff?style=flat-square&logo=windows&logoColor=white">
+  <img alt="NVIDIA, AMD and Intel" src="https://img.shields.io/badge/GPU-NVIDIA%20%C2%B7%20AMD%20%C2%B7%20Intel-a99cff?style=flat-square">
+  <img alt="Five interface languages" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20RO-8b5cf6?style=flat-square">
+  <img alt="No telemetry" src="https://img.shields.io/badge/telemetry-none-39e59f?style=flat-square">
+  <img alt="Free donationware" src="https://img.shields.io/badge/donationware-free%20%C2%B7%20no%20ads-251e3f?style=flat-square">
 </p>
 
 <!-- Quick navigation. The accent chip introduces the product; the remaining

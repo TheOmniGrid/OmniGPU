@@ -4,6 +4,7 @@
 
 | File | Size | Intended use |
 |---|---:|---|
+| `omnigpu-header-1600x500.png` | 1600×500 | Primary GitHub README product header |
 | `github-social-preview-1280x640.jpg` | 1280×640 | GitHub repository social preview |
 | `patreon-cover-2500x1000.jpg` | 2500×1000 | Patreon wide cover with safe-zone branding and real UI |
 | `patreon-product-984x554.jpg` | 984×554 | Patreon digital product landscape image |
