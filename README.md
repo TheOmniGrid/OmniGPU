@@ -131,10 +131,6 @@ See [Release status](STATUS.md), [Compatibility](COMPATIBILITY.md) and the [publ
 | [Changelog](CHANGELOG.md) | Maintained 1.0.0 development history |
 | [Credits](CREDITS.md) | Independent implementations, research references and attribution |
 
-## Independent software
-
-OmniGPU is independent software by OmniVex. NVIDIA, AMD, Intel, Microsoft, MSI and the referenced community projects do not sponsor or endorse it. Their names identify compatible hardware, software or researched workflows only.
-
 ## The OmniVex suite
 
 OmniGPU is one of a family of tools sharing a design language and a philosophy —
@@ -144,8 +140,50 @@ modern, fast, no telemetry:
 
 <sub>**OmniWrappers** is four Direct3D compatibility installers — OmniDXVK, OmniDxWrapper, OmniVKD3D and OmniVoodoo2.</sub>
 
-<p align="center">
-  <strong>Tuned for framerate, mixed for headroom, sharp to the pixel.</strong><br>
-  <a href="https://github.com/TheOmniGrid">Explore The OmniGrid</a> ·
-  <a href="mailto:omnivex@theomnigrid.biz">omnivex@theomnigrid.biz</a>
-</p>
+<sub>Tuned for framerate, mixed for headroom, sharp to the pixel. Donationware
+tools for gamers and audiophiles — audio, graphics, and a bit of privacy too.</sub>
+
+More at [github.com/TheOmniGrid](https://github.com/TheOmniGrid).
+
+---
+
+## Credit
+
+**OmniGPU is independently implemented by OmniVex** and bundles none of the applications
+below. It uses the official installed NVIDIA, AMD, Intel and Windows interfaces where
+those are available.
+
+Their public behaviour, documentation and compatibility research informed this work, and
+the debt is worth naming: **Display Driver Uninstaller** by Wagnardsoft,
+**NVIDIA Profile Inspector** by Orbmu2k, **NVIDIA Profile Inspector Revamped** by xHybred,
+**RadeonTuner** by dumbie, **MoreClockTool**, **MSI Afterburner** by Micro-Star INT'L,
+**Driver Store Explorer** by lostindark, and Wagnardsoft's **Intelligent Standby List
+Cleaner** workflow.
+
+NVIDIA, AMD, Intel, Microsoft, MSI and the referenced community projects do not sponsor or
+endorse OmniGPU. Their names identify compatible hardware, software or researched workflows
+only.
+
+Full attribution in [CREDITS.md](CREDITS.md).
+
+---
+
+## Contact
+
+This public repository takes factual documentation corrections, reproducible compatibility
+reports with personal data removed, and accessibility or translation corrections — see
+[CONTRIBUTING.md](CONTRIBUTING.md). Application source and reverse-engineered control
+tables are not accepted here.
+
+Security reports belong in private email, not a public issue:
+
+**omnivex@theomnigrid.biz**
+
+---
+
+<div align="center">
+
+Copyright © 2026 OmniVex · Free donationware · No ads · No telemetry<br>
+<sub>NVIDIA, AMD, Intel, Microsoft and MSI are trademarks of their respective owners; OmniGPU is independent software and is not sponsored or endorsed by them.</sub>
+
+</div>
