@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="media/banners/omnigpu-header-1600x500.png" alt="OmniGPU — one GPU control center built for gaming" width="100%">
+  <img src="media/banners/banner-animated.gif" alt="OmniGPU — one GPU control center built for gaming" width="100%">
 </p>
 
 <h1 align="center">OmniGPU</h1>
