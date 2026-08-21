@@ -25,4 +25,3 @@ The product version remains **1.0.0** until an explicit version decision is made
 - Evaluate additional display/gaming features only when documented APIs and rollback validation are available.
 
 No automatic OC scanner, unsupported NVIDIA fan curve or undocumented driver mutation is promised by this roadmap.
-

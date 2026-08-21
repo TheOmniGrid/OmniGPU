@@ -16,7 +16,7 @@ Supporting promise: **Capability-driven control for NVIDIA, AMD and Intel.**
 - Plain language first; exact technical boundary immediately available.
 - Safety phrased as control and transparency, not fear.
 
-Use: “reviewed installation,” “supported by the installed driver,” “personal supporter access,” “fails closed.”  
+Use: “reviewed installation,” “supported by the installed driver,” “optional community support,” “fails closed.”
 Avoid: “one-click magic,” “works on every GPU,” “zero risk,” “official vendor app,” “all features guaranteed.”
 
 ## Visual system
