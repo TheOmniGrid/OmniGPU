@@ -1,0 +1,64 @@
+name: Compatibility or documentation issue
+description: Report a reproducible OmniGPU behavior, compatibility problem or documentation defect.
+title: "[Issue]: "
+labels: ["needs-information"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not post license files, private download links, crash dumps containing personal paths or security vulnerabilities here. Use private vulnerability reporting for security issues.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - GPU and driver discovery
+        - Driver update
+        - Driver reset
+        - NVIDIA profiles
+        - Performance and tuning
+        - Monitoring and OSD
+        - Displays and HDR
+        - Memory and latency
+        - Installer
+        - Documentation
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU and driver
+      description: Exact GPU model, vendor and driver version. Do not include serial numbers.
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: Windows 11 24H2, OS build ...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      description: List the smallest safe sequence that reproduces the issue.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual result
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Safety checks
+      options:
+        - label: I obtained OmniGPU only through an official link listed by this repository.
+          required: true
+        - label: I removed private paths, account data, keys and download links from this report.
+          required: true
+        - label: This is not a security vulnerability.
+          required: true

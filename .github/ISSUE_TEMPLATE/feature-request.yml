@@ -1,0 +1,37 @@
+name: Feature request
+description: Suggest a gaming-focused workflow or compatibility improvement.
+title: "[Feature]: "
+labels: ["feature-request"]
+body:
+  - type: textarea
+    id: player-goal
+    attributes:
+      label: Player goal
+      description: What are you trying to accomplish in a game or graphics workflow?
+    validations:
+      required: true
+  - type: textarea
+    id: current-workaround
+    attributes:
+      label: Current workaround
+      description: Which tool or manual process do you use today?
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Suggested workflow
+      description: Describe the user-facing result. Avoid undocumented vendor APIs or requests to bypass safety gates.
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Relevant GPU/display hardware
+  - type: checkboxes
+    id: boundaries
+    attributes:
+      label: Boundaries
+      options:
+        - label: This request is for personal gaming use, not a developer/lab surface.
+          required: true
+        - label: I understand hardware-dependent controls require an official vendor capability contract.
+          required: true
