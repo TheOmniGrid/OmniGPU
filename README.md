@@ -30,17 +30,17 @@
 <!-- Quick navigation. The accent chip is the primary acquisition entry; the
      remaining chips follow the shared OmniVex content order where applicable. -->
 <p align="center">
-  <a href="#get-omnigpu"><img alt="Get OmniGPU" src="https://img.shields.io/badge/Get%20OmniGPU-8B5CF6?style=for-the-badge"></a>
-  <a href="FEATURES.md"><img alt="Features" src="https://img.shields.io/badge/Features-251E3F?style=for-the-badge"></a>
-  <a href="#real-application-captures"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-251E3F?style=for-the-badge"></a>
-  <a href="#safety-is-part-of-the-feature-set"><img alt="Safety" src="https://img.shields.io/badge/Safety-251E3F?style=for-the-badge"></a>
-  <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-251E3F?style=for-the-badge"></a>
-  <a href="COMPATIBILITY.md#operating-system"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-251E3F?style=for-the-badge"></a>
-  <a href="COMPATIBILITY.md#graphics-hardware"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-251E3F?style=for-the-badge"></a>
-  <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-251E3F?style=for-the-badge"></a>
-  <a href="SUPPORT.md"><img alt="Support" src="https://img.shields.io/badge/Support-251E3F?style=for-the-badge"></a>
-  <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-251E3F?style=for-the-badge"></a>
-  <a href="STATUS.md"><img alt="Status" src="https://img.shields.io/badge/Status-251E3F?style=for-the-badge"></a>
+  <a href="#get-omnigpu"><img alt="Get OmniGPU" src="https://img.shields.io/badge/Get%20OmniGPU-8A7BFF?style=for-the-badge"></a>
+  <a href="FEATURES.md"><img alt="Features" src="https://img.shields.io/badge/Features-2B2545?style=for-the-badge"></a>
+  <a href="#real-application-captures"><img alt="Screenshots" src="https://img.shields.io/badge/Screenshots-2B2545?style=for-the-badge"></a>
+  <a href="#safety-is-part-of-the-feature-set"><img alt="Safety" src="https://img.shields.io/badge/Safety-2B2545?style=for-the-badge"></a>
+  <a href="PRIVACY.md"><img alt="Privacy" src="https://img.shields.io/badge/Privacy-2B2545?style=for-the-badge"></a>
+  <a href="COMPATIBILITY.md#operating-system"><img alt="Requirements" src="https://img.shields.io/badge/Requirements-2B2545?style=for-the-badge"></a>
+  <a href="COMPATIBILITY.md#graphics-hardware"><img alt="Compatibility" src="https://img.shields.io/badge/Compatibility-2B2545?style=for-the-badge"></a>
+  <a href="FAQ.md"><img alt="FAQ" src="https://img.shields.io/badge/FAQ-2B2545?style=for-the-badge"></a>
+  <a href="SUPPORT.md"><img alt="Support" src="https://img.shields.io/badge/Support-2B2545?style=for-the-badge"></a>
+  <a href="CHANGELOG.md"><img alt="Changelog" src="https://img.shields.io/badge/Changelog-2B2545?style=for-the-badge"></a>
+  <a href="STATUS.md"><img alt="Status" src="https://img.shields.io/badge/Status-2B2545?style=for-the-badge"></a>
 </p>
 
 > [!IMPORTANT]
