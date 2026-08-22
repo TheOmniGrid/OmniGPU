@@ -25,23 +25,25 @@ The approved identity is the existing Omnivex midnight system with restrained cy
 
 | Role | Token | Hex |
 |---|---|---|
-| Canvas | Midnight violet | `#080713` |
-| Sidebar | Deep violet | `#0B0918` |
-| Surface | Violet panel | `#100D20` |
-| Raised surface | Violet panel alt | `#17122B` |
-| Soft surface | Violet panel soft | `#1C1634` |
-| Divider | Violet border | `#352A53` |
-| Brand border | Violet border | `#49317C` |
-| Primary accent | Omni violet | `#9865FF` |
-| Deep accent | Violet deep | `#6D35E8` |
-| Technical accent | Signal cyan | `#43D9FF` |
-| Success/safe | Engine green | `#26E7A2` |
-| Danger | Controlled red | `#FF5D7A` |
-| Primary text | Soft white | `#F7F4FF` |
-| Secondary text | Cool gray | `#A8B1C5` |
-| Tertiary text | Faint gray | `#7D879D` |
+| Canvas | OmniVex ground | `#04080D` |
+| Sidebar | OmniVex rail | `#050910` |
+| Surface | OmniVex well | `#0A0E12` |
+| Raised surface | OmniVex card | `#0F141B` |
+| Soft/hover surface | OmniVex card hover | `#161D27` |
+| Divider | White at 7% | `#12FFFFFF` |
+| Focus border | Violet at 40% | `#668A7BFF` |
+| Primary accent | Omni violet | `#8A7BFF` |
+| Deep accent | Violet pressed | `#6A5BDB` |
+| Technical accent | Signal cyan | `#57C7FF` |
+| Success/safe | Semantic green | `#00C66D` |
+| Danger | Semantic red | `#F1383E` |
+| Primary text | Soft white | `#E3E8EF` |
+| Secondary text | Cool gray | `#969FAB` |
+| Tertiary text | Faint gray | `#6A727D` |
 
-These values define the default Violet palette. Cyan, Plasma and Ember remap every visual role—including the shell, titlebar, hero gradients and ambient edge color—while success and danger colors remain stable semantic signals.
+These suite-core values define the default Violet palette. Cyan, Plasma and
+Ember are explicit, opt-in product overrides that remap presentation roles,
+while success and danger remain stable semantic signals.
 
 Normal text/background pairs must meet WCAG AA contrast. Color never carries status alone; pair it with a label or icon.
 
