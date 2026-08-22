@@ -128,7 +128,7 @@ Donating does not grant source-code, redistribution, resale or trademark rights.
 | [Status](STATUS.md) | Current certification and delivery boundary |
 | [Credits](CREDITS.md) | Independent implementations, research references and attribution |
 
-## Current verified state
+### Project status
 
 - Product version: **1.0.0**—intentionally pinned
 - Platform: Windows 10/11 x64; self-contained runtime
@@ -198,6 +198,6 @@ for repository scope and reporting guidance.
   <a href="https://github.com/TheOmniGrid">The OmniGrid on GitHub</a> ·
   <a href="https://ko-fi.com/theomnigrid">Ko-fi</a> ·
   <a href="https://www.patreon.com/TheOmniGrid">Patreon</a><br><br>
-  <sub>Copyright © 2026 OmniVex · Free donationware · No ads · No telemetry · <a href="LICENSE.md">Public materials notice</a></sub><br>
+  <sub>Copyright © 2026 OmniVex · Free donationware · No ads · No telemetry · <a href="LICENSE.md">Legal &amp; licensing</a></sub><br>
   <sub>NVIDIA, AMD, Intel, Microsoft and MSI are trademarks of their respective owners; OmniGPU is independent software and is not sponsored or endorsed by them.</sub>
 </p>
