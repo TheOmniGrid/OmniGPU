@@ -58,6 +58,8 @@ It detects the exact physical adapter first, then exposes only the controls repo
 
 ## What OmniGPU brings together
 
+![OmniGPU capability map covering driver care, capability-gated performance tuning, monitoring and OSD, and guarded automation](assets/presentation/capabilities.png)
+
 | Area | What you get |
 |---|---|
 | **Driver care** | Exact-adapter discovery, reviewed Windows-serviced driver installation, known-good package vault and rollback-aware maintenance |
