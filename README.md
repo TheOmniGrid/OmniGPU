@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banners/banner-animated.gif?v=20260822-premium-motion-v3" alt="OmniGPU — One GPU control center. Built for gaming." width="100%">
+  <img src="assets/banners/banner-animated.gif?v=20260825-windows11-v2" alt="OmniGPU — One GPU control center. Built for gaming." width="100%">
 </p>
 
 <h1 align="center">OmniGPU</h1>
@@ -21,10 +21,10 @@
 <!-- Suite metadata: Version · Platform · Languages · Telemetry · Distribution -->
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-8A7BFF?style=flat-square">
-  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2010%20%2F%2011%20%C2%B7%20x64-0078D4?style=flat-square">
-  <img alt="Languages" src="https://img.shields.io/badge/languages-EN%20%C2%B7%20DE%20%C2%B7%20ES%20%C2%B7%20FR%20%C2%B7%20RO-8A7BFF?style=flat-square">
-  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-2EA043?style=flat-square">
-  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-99A3B1?style=flat-square">
+  <img alt="Platform" src="https://img.shields.io/badge/platform-Windows%2011%20%C2%B7%20x64-57C7FF?style=flat-square">
+  <img alt="Languages: 10" src="https://img.shields.io/badge/languages-10-8A7BFF?style=flat-square">
+  <img alt="Telemetry" src="https://img.shields.io/badge/telemetry-none-00C66D?style=flat-square">
+  <img alt="Distribution" src="https://img.shields.io/badge/distribution-docs%20only-969FAB?style=flat-square&labelColor=30363D">
 </p>
 
 <!-- Quick navigation. The accent chip is the primary acquisition entry; the
@@ -62,13 +62,14 @@ It detects the exact physical adapter first, then exposes only the controls repo
 
 | Area | What you get |
 |---|---|
-| **Driver care** | Exact-adapter discovery, reviewed Windows-serviced driver installation, known-good package vault and rollback-aware maintenance |
+| **Driver care** | Exact-adapter discovery, reviewed Windows-serviced driver installation, known-good package vault, rollback-aware maintenance and before/after version history |
 | **Driver reset** | A DDU-style clean-reset plan with restore point, backup, Safe Mode guidance, exact residual cleanup and restart/shutdown/manual completion |
 | **Driver Store** | Online/offline package inventory, smart cleanup selection, add/install/remove/export and guarded force removal in an advanced workspace |
 | **Profile Inspector** | NVIDIA DRS profiles, applications, friendly and raw values, favorites, search, purpose categories, defaults, `.nip` exchange and verified history |
 | **Performance tuning** | Driver-reported NVIDIA, AMD and Intel clock, voltage, power, thermal and fan controls protected by an explicit session-only OC mode |
-| **Monitoring & OSD** | Live telemetry, PresentMon FPS/1% low/frametime, graphs, CSV logging, benchmarks, screenshots and configurable in-game overlays |
-| **Game automation** | Per-game performance and fan presets with apply, exit restore, interrupted-session recovery and lightweight background detection |
+| **Monitoring & OSD** | Live telemetry, extended PresentMon/DXGI Gaming Intelligence, bounded graphs, CSV logging, benchmarks, screenshots and configurable in-game overlays |
+| **Game automation** | Per-game performance and fan presets with apply, exit restore, interrupted-session recovery, Compatibility Mode and lightweight background detection |
+| **Safe recovery** | Pending NVIDIA profile diff/lint, coordinated Restore Everything and capability-gated AMD Variable Graphics Memory with visible restart state |
 | **Displays & latency** | Resolution/refresh, HDR, exact-output DDC/CI brightness, standby-memory cleanup and timer-resolution controls |
 
 The [complete feature list](FEATURES.md) documents the full surface and its capability boundaries.
@@ -133,10 +134,10 @@ Donating does not grant source-code, redistribution, resale or trademark rights.
 ### Project status
 
 - Product version: **1.0.0**—intentionally pinned
-- Platform: Windows 10/11 x64; self-contained runtime
-- Automated contracts: **360/360 passing** in Debug and Release with zero managed build warnings
-- Localization: **1,836 synchronized non-empty strings** in English, Deutsch, Español, Français and Română
-- Live read-only validation: NVIDIA GeForce RTX 5090 plus current NVML/NVAPI and installed PresentMon paths
+- Platform: Windows 11 x64 build 22000 or newer; self-contained runtime; Windows 10 is unsupported
+- Automated contracts: **396/396 passing** in Debug and Release with zero managed build warnings
+- Localization: **1,964 synchronized non-empty application strings** plus 63 setup strings in English, Deutsch, Español, Français, Română, Русский, 简体中文, 日本語, 한국어 and Türkçe
+- Live read-only validation: exact NVIDIA GeForce RTX 5090/driver binding, current NVML/NVAPI telemetry and capability ranges, correct virtual-monitor exclusion and installed PresentMon paths; no write gate is inferred
 - Release boundary: production Authenticode signing and the documented real-hardware write/read-back matrices remain required before the build is represented as a universally certified release candidate
 
 See [Status](STATUS.md), [Compatibility](COMPATIBILITY.md) and the [public roadmap](ROADMAP.md) for the honest boundary between implemented software and external certification.

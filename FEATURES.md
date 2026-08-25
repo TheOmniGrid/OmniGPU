@@ -12,7 +12,7 @@
 - Keeps normal driver maintenance immediately visible while complete Windows Driver Store package management remains one click away in a clearly labeled advanced workspace.
 - Groups live NVIDIA, AMD and Intel controls by gaming purpose and explains supported ranges or choices, live source and OC-mode requirements without exposing unsupported controls.
 - Keeps a persistent Performance workspace switcher visible for monitoring, OSD composition, benchmark history, supported tuning, 32 manual profile slots, AMD gaming/video controls and fan curves.
-- Includes four complete visual palettes, explicit reduced motion and English, German, Spanish, French and Romanian interface text.
+- Includes four complete visual palettes, explicit reduced motion and ten complete application/setup languages.
 
 ## Driver maintenance and clean reset
 
@@ -26,6 +26,7 @@
 - Durable privileged-operation journal and global mutation coordination so overlapping GPU writes are rejected and interrupted work is surfaced for recovery.
 - SHA-256-verified known-good driver package vault with exact-device identity, protected pre-update capture planning and explicit restore review.
 - Restart, shut down or leave the system running after cleanup, with exactly one completion mode selected.
+- Captures selected-adapter driver versions before and after completed maintenance, suppresses duplicate rediscovery entries and exposes the actual transition in driver history.
 - Detects Windows Safe Mode and opens Windows recovery options without silently editing the boot configuration.
 - Includes current exact-name Intel `PmtChildDriver`/`IGSDSserviceDiscrete` rules and a conservative LISUAN path limited to its active display INF, `LSGPU` service and vendor registry trees.
 
@@ -46,6 +47,7 @@
 - Transactional whole-database backup and restore.
 - Automatic SHA-256-verified NVIDIA profile snapshots before every create, delete, save, import or default restore, with bounded ten-snapshot history and one-click latest restore.
 - Read-only Profile Health checks for vendor mismatch, missing executable bindings, unbound custom profiles, duplicate names and duplicate custom bindings.
+- Pending-change diff and linter for modified settings, risky raw overrides and application-binding issues before a NVIDIA profile save.
 - Restores one setting, one profile or all NVIDIA profile defaults through the official DRS interfaces, with whole-database rollback on failure.
 - Native `.nip` import/export with merge/update or exact-replace semantics.
 - Exact replace removes settings and applications absent from the package only after a full backup.
@@ -58,13 +60,16 @@
 - Live process/path revalidation before apply.
 - Automatic apply on launch, restore on exit and interrupted-session recovery.
 - Optional automatic OSD launch.
+- Per-game Compatibility Mode can independently suppress tuning, OSD, PresentMon, global hotkeys and capture for conflict-prone titles while retaining the game entry and its safe settings.
 - Optional per-user Start with Windows and minimized background monitoring, without an always-elevated service.
 
 ## Monitoring, benchmarking and capture
 
 - Vendor telemetry when available, with safe Windows fallback for unambiguous adapters.
-- GPU load, VRAM, temperature, fan, power, core clock, memory clock and power limit where reported.
-- PresentMon FPS, 1% low and frametime integration.
+- GPU load, VRAM, temperature, fan percentage/RPM channels, power, core/memory/SM/video clocks, NVIDIA P-state and power limit where reported.
+- PresentMon FPS, 1% low, frametime, presentation path, CPU/GPU busy and wait, display latency, tearing and PSO observations when supplied by the installed runtime.
+- Gaming Intelligence combines frame observations, driver-reported limits, exact-adapter DXGI video-memory budget/headroom and display state into plain-language bottleneck and compatibility guidance.
+- Bounded telemetry history retains up to 30 minutes of analysis samples while rendering at most 60 timeline points to keep the interface lightweight.
 - Persistent benchmark history with duration and average metrics.
 - Local CSV performance logging.
 - Click-through in-game OSD and global OSD hotkey.
@@ -80,8 +85,10 @@
 
 - NVIDIA NVML power, clock, voltage and fixed-fan controls only when exposed by the installed runtime.
 - AMD ADLX clock, voltage, power and hardware fan-curve controls with live ranges and read-back.
+- AMD ADLX Variable Graphics Memory choices only when the selected adapter reports an exact supported-state list, including visible restart requirements and read-back.
 - Intel IGCL clock, voltage, power and hardware fan-curve controls with live ranges and read-back.
 - Vendor-default reset and prior-value rollback after partial failures.
+- **Restore Everything** coordinates recovery of active tuning, fan curves, temporary performance state and per-game automation state without inventing unsupported defaults.
 - No guessed ranges, undocumented mutation calls or cross-adapter writes.
 
 ## AMD gaming controls
@@ -118,7 +125,8 @@
 - Four complete Omnivex visual palettes—Violet, Cyan, Plasma and Ember—that restyle the shell, navigation, cards, controls, titlebar, hero areas and ambient window corners.
 - Readable 14–30 px hierarchy, visible keyboard focus and larger action/navigation targets.
 - Restrained opacity/transform motion, interruptible interactions and Windows reduced-motion support.
-- Complete English, German, Spanish, French and Romanian catalogs with 1,836 synchronized non-empty strings.
+- Complete English, German, Spanish, French, Romanian, Russian, Simplified Chinese, Japanese, Korean and Turkish catalogs with 1,964 synchronized non-empty application strings plus ten synchronized 63-entry setup dictionaries.
+- Windows 11 x64 build 22000 or newer is required consistently by direct startup, MSI and setup; Windows 10 is unsupported.
 
 ## Deliberate boundaries
 

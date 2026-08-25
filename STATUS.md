@@ -7,9 +7,12 @@ The product version is intentionally pinned at **1.0.0**. Version identity and c
 - Clean private development tree retained with the SDKs and sources needed for future work.
 - One current runtime folder retained; historical packages, duplicate source snapshots and rebuildable outputs removed.
 - Self-contained single-file Windows application plus separate elevated broker and AMD/Intel bridges.
-- 360 automated tests pass in Debug and Release; all five language catalogs contain 1,836 synchronized non-empty strings.
+- 396 automated tests pass; all ten application catalogs contain 1,964 synchronized non-empty strings and all ten setup dictionaries contain 63 synchronized entries.
+- Windows 11 x64 build 22000 or newer is enforced by the app, MSI and setup bootstrapper; Windows 10 is outside supported and certified scope.
+- A repeatable non-mutating RTX 5090 preflight verifies exact physical-device/driver/runtime binding, finite NVIDIA telemetry, public capability ranges and virtual-monitor exclusion without closing any write gate.
 - The complete interface now uses guided navigation, progressive disclosure for advanced Driver Store work, purpose-grouped cross-vendor tuning and localized mouse-over/accessibility help without removing expert controls.
 - Durable privileged-operation recovery, a verified known-good driver vault, Game Readiness and recipes, session/tuning guidance, Display Gaming Check, adaptive low-overhead monitoring, privacy-safe support bundles, automatic NVIDIA profile history and Profile Health are implemented.
+- Gaming Intelligence, extended PresentMon/DXGI observations, driver before/after snapshots, per-game Compatibility Mode, pending NVIDIA profile diff/lint, Restore Everything and capability-gated AMD Variable Graphics Memory are implemented and exposed through the maintained interface.
 - The current package validator confirms the app, broker, AMD bridge, Intel bridge and protected installer are all present; the release pipeline now rejects a package if either native bridge is omitted.
 - Real 1440×900 application screenshots captured from the current build.
 - Documentation-only GitHub package contains no binaries, installer or source code.

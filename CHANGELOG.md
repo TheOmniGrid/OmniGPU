@@ -1,10 +1,32 @@
 # Public changelog
 
+## 1.0.0 — 2026-08-24
+
+- Expanded the complete application and custom setup from five to ten live languages: English, German, Spanish, French, Romanian, Russian, Simplified Chinese, Japanese, Korean and Turkish.
+- Added operating-system detection, immediate app/setup switching, culture-correct formatting, English fallback and placeholder/key-parity release gates across all ten catalogs.
+- Completed the canonical OmniVex application and setup shell alignment without changing the product version or the Windows 11 support boundary.
+- Final remediation passes now report 396 automated contracts, 1,964 synchronized non-empty application keys and ten synchronized 63-entry setup dictionaries.
+- Preserved the honest release boundary: production signing and the documented real-hardware write/read-back and lifecycle matrices remain open.
+
+## 1.0.0 — 2026-08-23
+
+- Added Gaming Intelligence with extended PresentMon presentation-path, CPU/GPU busy and wait, latency, tearing and PSO observations, plus bounded 30-minute analysis history and a lightweight 60-point rendered timeline.
+- Added exact-adapter DXGI video-memory budget/headroom reporting, driver-reported hardware limits and a display gaming advisor; unavailable runtime data now degrades to an explicit unsupported state instead of guessed values.
+- Added before/after driver version snapshots so completed install and maintenance work can show the selected adapter's actual version transition.
+- Added per-game Compatibility Mode, which can suppress tuning, OSD, PresentMon, hotkeys and capture independently for games that conflict with overlays or hardware writes.
+- Added a pending NVIDIA profile diff and linter so users can review modified settings, risky raw overrides and application-binding issues before saving.
+- Added **Restore Everything**, a coordinated recovery action for active tuning sessions, fan curves, temporary performance state and per-game automation state.
+- Added AMD ADLX Variable Graphics Memory control only when the exact selected adapter reports a supported state list; restart requirements and read-back remain visible.
+- Fixed duplicate driver-history snapshots when the same installed version was rediscovered and kept all new surfaces capability-gated, localized and fail closed.
+- The maintained 1.0.0 engineering build now passes **379 automated tests** in Debug and Release; all five language catalogs contain **1,962 synchronized non-empty strings**.
+- Kept version 1.0.0 pinned and retained the existing non-RC boundary until signing and the named real-hardware/lifecycle certification gates pass.
+
 ## 1.0.0 — 2026-08-21
 
 - Completed the application-wide guided-interface pass: every destination explains its purpose, advanced Driver Store management is progressively disclosed, and NVIDIA/AMD/Intel tuning is grouped by purpose with localized range, source and OC-mode guidance.
 - Added equivalent UI Automation help to dynamic tuning, AMD display and AMD video controls, and fixed already-loaded tuning content not refreshing when the interface language changes.
-- Expanded all five interface catalogs to 1,836 synchronized non-empty strings and passed all 360 automated tests in Debug and Release.
+- Established Windows 11 x64 build 22000 or newer as the sole supported baseline across direct startup, MSI and setup, expanded all five interface catalogs to 1,849 synchronized non-empty strings and passed all 373 automated tests in Debug and Release.
+- Added public NVIDIA SM/video clocks, P-state and per-fan RPM monitoring plus a repeatable exact-device read-only hardware preflight; unsupported private voltage/XBAR/SYS/V-F writes remain deliberately absent.
 - Added durable privileged-operation recovery and global coordination for GPU mutations.
 - Added a SHA-256-verified known-good driver package vault with protected restore planning.
 - Added Game Readiness, conservative gaming recipes, completed-session analysis, bottleneck guidance and goal-based tuning advice.
