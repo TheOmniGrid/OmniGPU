@@ -23,4 +23,4 @@ Do not post operation plans, private download links, purchase receipts, full log
 
 ## Support scope
 
-Support covers authorized, unmodified OmniGPU builds on Windows 10/11 x64. Modified packages, mirrors, cracked copies, unsupported driver modifications, guessed voltage/clock ranges and damage caused by bypassing safety controls are outside support scope. Mandatory consumer rights remain unaffected.
+Support covers authorized, unmodified OmniGPU builds on Windows 11 x64 build 22000 or newer. Windows 10, 32-bit Windows, modified packages, mirrors, cracked copies, unsupported driver modifications, guessed voltage/clock ranges and damage caused by bypassing safety controls are outside support scope. Mandatory consumer rights remain unaffected.

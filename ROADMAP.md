@@ -2,6 +2,13 @@
 
 The product version remains **1.0.0** until an explicit version decision is made. Roadmap items are goals, not purchase guarantees.
 
+## Completed in the maintained 1.0.0 cycle
+
+- Gaming Intelligence with bounded extended PresentMon/DXGI analysis and display guidance.
+- Driver before/after history, per-game Compatibility Mode and coordinated Restore Everything recovery.
+- Pending NVIDIA profile diff/lint and capability-gated AMD Variable Graphics Memory control.
+- Ten synchronized application/setup languages and 396 passing automated contracts.
+
 ## Release completion
 
 - Production Authenticode signing and post-signing verification inventory.
